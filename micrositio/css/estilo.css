@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	background-image: url(../img/fondo.png);
+
+}
+
+main{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background-color: #F4B3AF;
+	background-image: url(../img/logo.jpg);
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #362727;
+}
+
+section{
+	width: 100%;
+	height: 500px;
+	background-color: #060707;
+	background-image: url(../img/foto.jpg);
+}
+
+section.typeb {
+ background-image: url(../img/beneficios.jpg);  
+}
+
+section.typec {
+ background-image: url(../img/fondotarjetas.jpg) ;
+ padding-top: 4%;
+}
+
+section.typed {
+ background-image: url(../img/fondoturnos.jpg) ;
+}
+
+section.typee {
+ background-image: url(../img/fondoturnos.jpg) ;
+}
+
+section.typef {
+ background-image: url(../img/fondoturnos.jpg) ;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color:#F4B3AF;
+	overflow: auto;
+}
+
+#botonera{
+	 padding: 0;
+	 }
+#botonera li {
+ display: inline;
+ }
+
+ #botonera li a {
+ font-size: 22px;
+ font-weight: 700 ;
+ text-decoration: none;
+ float: right;
+ padding: 1%;
+ margin-left: 2%;
+ margin-right: 2%;
+ margin-bottom: 1%;
+ color: #FFFFFF;
+ }
+
+ #area1{
+	width: 25%;
+	height: 350px;
+	margin-top: 4%;
+	margin-left: 3%;
+	padding: 1%;
+	float: left;
+	overflow: auto;
+	border-radius: 5px;
+	background-color: #E17778;
+}
+
+ #area2{
+	width: 24%;
+	height: 325px;
+	margin-top: 4%;
+	margin-left: 3%;
+	margin-right: 20%;
+	padding-left: 1%;
+	float: right;
+	overflow: auto;
+	border-radius: 5px;
+	
+}
+
+ #area3{
+	width: 30%;
+	height: 400px;
+	margin-top: 2.5%;
+	margin-left: 5%;
+	margin-right: 20%;
+	padding: 1%;
+	float: left;
+	overflow: auto;
+	border-radius: 5px;
+	background-color: #ffffff;
+
+	
+}
+
+ #area4{
+	width: 22%;
+	height: 325px;
+	margin-left: 5%;
+	padding: 1%;
+	float: left;
+	overflow: auto;
+	border-radius: 5px;
+	background-color: #F4B3AF;
+
+}
+
+ #area5{
+	width: 35%;
+	height: 400px;
+	margin-top: 2.5%;
+	margin-left: 3%;
+	padding: 1%;
+	float: left;
+	overflow: auto;
+	border-radius: 5px;
+	
+
+}
+
+ #area6{
+	width: 38%;
+	height: 450px;
+	margin-top: 2%;
+	margin-left: 3%;
+	float: left;
+	overflow: auto;
+	
+}
+
+ #area7{
+	width: 40%;
+	height: 400px;
+	margin-top: 2%;
+	margin-right: 4%;
+	float: right;
+	overflow: auto;
+	
+}
+
+ #area8{
+ 	width: 80%;
+	height: 450px;
+	margin-left: 5%;
+	padding-top: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
+	
+}
+
+.botonindex{
+	width: 200px;
+	height: 25px;
+	background-color: #ffffff;
+	color: #362727;
+	border-radius: 5px;
+	font-family: 'Noto Sans JP', sans-serif;
+	cursor: pointer;
+	transition: background-color 0.5s;
+	margin-top: 6%;
+}
+
+.botonturnos{
+	width: 200px;
+	height: 25px;
+	background-color: #ffffff;
+	color: #362727;
+	border-radius: 5px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background-color 0.5s;
+	margin-top: 6%;
+}
+
+.nombre{
+	font-size: 15px;
+	color: #362727;
+	padding-top: 15px;
+	margin-left: 50px
+	margin-right: 50px;
+	text-decoration: none;
+	
+}
+
+#logoheader{
+	width: 200px;
+	height: 100%;
+}
+
+#logo2{
+	width: 120px;
+	height: 30px;
+	background-color: #F4B3AF;
+	float: left;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+.logopie{
+	font-size: 13px;
+	padding-top: 10px;
+	float: left;
+}
+
+#sapie{
+	width: 250px;
+	height: 30px;
+	float: right;
+	margin-right: 2.5%;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.sapie2{
+	font-size: 13px;
+	padding-top: 10px;
+	float: right;
+}
+
+#formulario{
+	width: 22%;
+	height: 400px;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 33%;
+	float: right;
+	background-color: #F4B3AF;
+	border-radius: 5px;
+
+}
+
+ #galeriamapa{
+ 	margin-top: 3%;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{ color: #ffffff;
+	font-family: 'Noto Sans JP', sans-serif; 
+	
+}
+
+
+h2{ color: #ffffff;
+	font-family: 'Noto Sans JP', sans-serif; 
+	font-weight: 700;
+	font-size: 30px;
+	
+}
+
+h3{ color: #362727;
+	font-family: 'Noto Sans JP', sans-serif; 
+	font-weight: 900;
+	font-size: 25px;
+
+}
+
+h4{ color: #E4848D;
+	font-family: 'Noto Sans JP', sans-serif; 
+	font-weight: 700;
+
+}
+
+#slider {
+   margin-left: 18%;
+   width: 850px;
+   max-width: 100%;
+   text-align: center;
+
+}
+#slider input[type=radio] {
+   display: none;
+}
+#slider label {
+   cursor:pointer;
+   text-decoration: none;
+}
+#slides {
+   padding: 10px;
+   border: 3px solid #F4B3AF;
+   background: #362727;
+   position: relative;
+   z-index: 1;
+}
+#overflow {
+   width: 100%;
+   overflow: hidden;
+}
+#slide1:checked ~ #slides .inner {
+   margin-left: 0;
+}
+#slide2:checked ~ #slides .inner {
+   margin-left: -100%;
+}
+#slide3:checked ~ #slides .inner {
+   margin-left: -200%;
+}
+#slide4:checked ~ #slides .inner {
+   margin-left: -300%;
+}
+#slides .inner {
+   transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+   width: 400%;
+   line-height: 0;
+   height: 300px;
+}
+#slides .slide {
+   width: 25%;
+   float:left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   color: #fff;
+}
+#slides .slide_1 {
+   background-image: url(../img/tarjeta1.jpg);
+}
+#slides .slide_2 {
+   background-image: url(../img/tarjeta2.jpg);
+}
+#slides .slide_3 {
+   background-image: url(../img/tarjeta3.jpg);
+}
+#slides .slide_4 {
+   background-image: url(../img/tarjeta4.jpg);
+}
+#controls {
+   margin: -180px 0 0 0;
+   width: 100%;
+   height: 50px;
+   z-index: 3;
+   position: relative;
+}
+#controls label {
+   transition: opacity 0.2s ease-out;
+   display: none;
+   width: 50px;
+   height: 50px;
+   opacity: .4;
+}
+#controls label:hover {
+   opacity: 1;
+}
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1) {
+   background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+   float:right;
+   margin: 0 -50px 0 0;
+   display: block;
+}
+#slide1:checked ~ #controls label:nth-last-child(2),
+#slide2:checked ~ #controls label:nth-last-child(3),
+#slide3:checked ~ #controls label:nth-last-child(4),
+#slide4:checked ~ #controls label:nth-last-child(1) {
+   background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+   float:left;
+   margin: 0 0 0 -50px;
+   display: block;
+}
+#bullets {
+   margin: 150px 0 0;
+   text-align: center;
+}
+#bullets label {
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   border-radius:100%;
+   background: #ccc;
+   margin: 0 10px;
+}
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+   background: #444;
+}
+@media screen and (max-width: 900px) {
+   #slide1:checked ~ #controls label:nth-child(2),
+   #slide2:checked ~ #controls label:nth-child(3),
+   #slide3:checked ~ #controls label:nth-child(4),
+   #slide4:checked ~ #controls label:nth-child(1),
+   #slide1:checked ~ #controls label:nth-last-child(2),
+   #slide2:checked ~ #controls label:nth-last-child(3),
+   #slide3:checked ~ #controls label:nth-last-child(4),
+   #slide4:checked ~ #controls label:nth-last-child(1) {
+      margin: 0;
+   }
+   #slides {
+      max-width: calc(100% - 140px);
+      margin: 0 auto;
+   }
+}
